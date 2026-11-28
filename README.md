@@ -23,24 +23,21 @@ A numerical and analytical study of the vertical bounce and pitch vibration dyna
 ---
 
 ## Repository Structure
-
 ```text
-.
-├── FINAL_PPT_ME3103_TEAM5.pptx            # Final project presentation slides
-└── MATLAB_stuff/
-    ├── code/
-    │   ├── tractor_simulation_chirp.m     # Swept-sine (0–10 Hz) time-domain simulation & RMS metrics
-    │   ├── tractor_psd_analysis.m         # FFT-based Power Spectral Density (PSD) analysis
-    │   ├── tractor_phase_portraits.m      # Vertical & pitch phase-plane trajectory generator
-    │   └── tractor_simulation_kinematics.m # 2-DOF tractor kinematic animation generator
-    └── results/
-        ├── tractor.png                    # Tractor reference / model illustration
-        ├── tractor_flowchart.png          # Numerical integration & solver architecture flowchart
-        ├── CHIRP_graphs.png               # Vertical bounce & pitch response (0–10 Hz sweep)
-        ├── SWEPTSINE_results.png          # Command window RMS acceleration outputs
-        ├── PSD_graphs.png                 # Vertical & pitch Power Spectral Density plots
-        ├── Tractor_Phases.gif             # Animated phase-plane stability trajectories
-        └── Tractor_Kinematics.gif         # Animated 2-DOF tractor chassis motion
+└── omniman2024-vibrating-tractor/
+   ├── README.md                         # Project documentation
+   ├── FINAL_PPT_ME3103_TEAM5.pptx       # Final project presentation slides
+   ├── tractor_simulation_chirp.m        # Swept-sine (0–10 Hz) time-domain simulation & RMS metrics
+   ├── tractor_psd_analysis.m            # FFT-based Power Spectral Density (PSD) analysis
+   ├── tractor_phase_portraits.m         # Vertical & pitch phase-plane trajectory generator
+   ├── tractor_simulation_kinematics.m   # 2-DOF tractor kinematic animation generator
+   ├── tractor.png                       # Tractor reference / model illustration
+   ├── tractor_flowchart.png             # Numerical integration & solver architecture flowchart
+   ├── CHIRP_graphs.png                  # Vertical bounce & pitch response (0–10 Hz sweep)
+   ├── SWEPTSINE_results.png             # Command window RMS acceleration outputs
+   ├── PSD_graphs.png                    # Vertical & pitch Power Spectral Density plots
+   ├── Tractor_Phases.gif                # Animated phase-plane stability trajectories
+   └── Tractor_Kinematics.gif            # Animated 2-DOF tractor chassis motion
 ```
 ## Mathematical Formulation
 
